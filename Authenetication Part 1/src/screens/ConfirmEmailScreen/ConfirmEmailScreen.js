@@ -33,7 +33,10 @@ const ConfirmEmailScreen = () => {
           setValue={setCode}
         />
 
-        <CustomButton text="Confirm" onPress={onConfirmPressed} />
+        <CustomButton 
+          text="Confirm" 
+          onPress={onConfirmPressed} 
+        />
 
         <CustomButton
           text="Resend code"
